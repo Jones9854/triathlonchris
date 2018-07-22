@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: 'Triathlon Chris',
-    author: 'Christian JOnes',
+    author: 'Christian Jones',
     description: 'Triathlon and software blog.',
     siteUrl: 'http://www.triathlonchris.com/',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/triathlon-chris',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
