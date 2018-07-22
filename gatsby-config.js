@@ -5,7 +5,7 @@ module.exports = {
     description: 'Triathlon and software blog.',
     siteUrl: 'http://www.triathlonchris.com/',
   },
-  pathPrefix: '/triathlon-chris',
+  pathPrefix: '/triathlonchris',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
