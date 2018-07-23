@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: 'http://www.triathlonchris.com/',
   },
   plugins: [
+    `gatsby-plugin-glamor`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
