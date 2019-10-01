@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="card-deck">
+    <!-- Card -->
+    <mdb-card *ngFor="let blog of blogs">
+      <div class="view overlay waves-light" mdbWavesEffect>
+        <!-- Card img -->
+        <a href="/blog/{{blog.ID}}">
+          <mdb-card-img src="{{blog.Image}}" alt="Card image cap"></mdb-card-img>
+        </a>
+      </div>
+      <!--Card content-->
+      <mdb-card-body>
+        <!--Title-->
+        <mdb-card-title>
+          <h4>{{blog.Title}}</h4>
+        </mdb-card-title>
+
+        <!--Text-->
+        <!-- <mdb-card-text> 
+          <div [innerHTML]="blog.Body"></div>
+        </mdb-card-text> -->
+      </mdb-card-body>
+    </mdb-card>
+  </div>
+</div>
