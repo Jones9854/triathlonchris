@@ -4,7 +4,7 @@
     <mdb-card *ngFor="let blog of blogs">
       <div class="view overlay waves-light" mdbWavesEffect>
         <!-- Card img -->
-        <a href="/blog/{{blog.ID}}">
+        <a routerLink="/blog/{{blog.ID}}">
           <mdb-card-img src="{{blog.Image}}" alt="Card image cap"></mdb-card-img>
         </a>
       </div>
