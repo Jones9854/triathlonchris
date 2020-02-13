@@ -4,4 +4,8 @@ export class BlogModel {
     Date: Date;
     Image: string;
     Body: string;
+    Swim: number;
+    Bike: number;
+    Run: number;
+    Overall: number;
 }

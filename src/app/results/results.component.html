@@ -1,17 +1,19 @@
 <div class="container">
   <table mdbTable>
-    <thead class="black white-text">
+    <thead>
       <tr>
         <th *ngFor="let head of headElements" scope="col">{{head}} </th>
       </tr>
     </thead>
     <tbody>
       <tr mdbTableCol *ngFor="let el of elements">
-        <th scope="row">{{el.RaceName}}</th>
-        <td>{{el.Swim}}</td>
-        <td>{{el.Bike}}</td>
-        <td>{{el.Run}}</td>
-        <td>{{el.Overall}}</td>
+        <th scope="row">
+          <a routerLink="/blog/{{el.ID}}">{{el.Title}}</a>
+        </th>
+        <td>{{el.Swim | date: 'HH:mm:ss'}}</td>
+        <td>{{el.Bike | date: 'HH:mm:ss'}}</td>
+        <td>{{el.Run | date: 'hh:mm:ss'}}</td>
+        <td>{{el.Overall | date: 'hh:mm:ss'}}</td>
       </tr>
     </tbody>
   </table>

@@ -3,9 +3,10 @@ import { BlogModel } from './models/blog-model';
 export const Blogs: BlogModel[] = [
     {
         ID: 1,
-        Title: "Ironman Wales 2018",
+        Title: "IM Wales 2018",
         Date: new Date('2018-09-09'),
         Image: 'assets/wales2018.jpg',
+        Swim: 4120000, Bike: 21813000, Run: 13273000, Overall: 39206000,
         Body: `Following an analysis day with Oliver Harkin in February, I decided to go all in on 2018 with coaching. I was already signed up for Austria and figured I may as well throw Wales into the mix as well, having promised myself months earlier never again to register for multiple Ironman events in one year…that didn’t last long. Wales 2017 was a pretty special race for me, getting PBs on both the swim and run despite a tough course. I was left wondering if I could do more on that bike course.
         <br /><br />
         I managed a decent time out in Austria, just falling short of a sub 10. It was frustrating not to have an opportunity to nip that goal in the bud on another fast course but I would have to be patient for now (sub 10 in Wales would win my age group!). Recovery was pretty good until I decided to try my luck at tag rugby…they were short on numbers and I figured I’d be brilliant at it. It turns out I’m only able to run in straight lines and borrowing a pair of football boots wasn’t a great idea. This meant the lead up with to Tyrone 70.3 missed run training but a decent bike split in the entire average rainfall for July afforded me 2nd place in AG and was a great booster ahead of Wales in 6 weeks time.
@@ -22,9 +23,10 @@ export const Blogs: BlogModel[] = [
     },
     {
         ID: 2,
-        Title: "Ironman Austria 2018",
+        Title: "IM Austria 2018",
         Date: new Date('2018-07-22'),
         Image: 'assets/austria2018.jpg',
+        Swim: 4155000, Bike: 19175000, Run: 12883000, Overall: 36213000,
         Body: `Austria 2017 wasn’t meant to be after breaking my back snowboarding in January, so instead I spectated and having already decided against Austria 2018, the temptation of much of Pulse club registering the next day proved too much.
         <br /><br />
         Start of 2018, strictly no snow activities, and I decided after seeing decent improvement since moving to long distance triathlon I’d opt for a coach to help address weaknesses. I had a good swim and run at IM Wales the previous year but the bike was disappointing (6:40). I had a sub 10 in mind for Austria and picked up a second hand Cannondale Slice TT bike and some aero wheels. I was also registered for London marathon in April so focused on the bike in Jan and Feb and moved over to long hill runs ahead of London. Sub 3hr was on the cards but a combination of sickness leading up to the race and hot conditions on race day meant I seriously overheated 25km into the run after which point it was a case of just getting to the finish. I can’t remember crossing the finish line and was delirious as medics tried to cool me down. Not a good start and a serious question mark over whether I can handle heat, like Austria might experience. A few weeks later I managed to completely mess up my nutrition at the double Olympic in Athy; after a decent bike and start to the run I rapidly faded to a walk/run effort. So not the smoothest lead up but I wanted to make sure that i learnt from my mistakes namely factoring in race conditions for pace, and controlling nutrition and hydration. For the latter I bought all the Enervit nutrition that would be available on the bike course, increased my electrolyte intake in training, and figured out how to fit it all to the bike.
@@ -51,9 +53,10 @@ export const Blogs: BlogModel[] = [
     },
     {
         ID: 3,
-        Title: "Ironman Wales 2017",
+        Title: "IM Wales 2017",
         Date: new Date('2017-09-10'),
         Image: 'assets/wales2017.jpg',
+        Swim: 3952000, Bike: 24464000, Run: 12598000, Overall: 41014000,
         Body: `After a couple of surprise results at Challenge Galway and Dublin Marathon last year I was far too eager to do it all over again and promptly signed up for Austria and Wales. My somewhat ambitious goal was a sub 10 in Austria with it being one of the quicker courses and so I got to work on my bike with a new power meter and trainer road. It was going great, with my FTP increasing week on week.
         <br /><br />
         I managed to get a week snowboarding in the alps and was getting a kick out of being able to last all day benefiting from all the training. Unfortunately fitness is no substitute for skill and it wasn’t long before I found myself dealing with a broken back. My Doctor was keen for me to return to the pool as soon as I could and while making the difficult decision to unplug from Austria being able to swim meant the minor inconvenience served as fuel on the fire. Two months later I was back on the bike doing my favourite sportives, one more month had me back running so I ready for some national series action.
@@ -74,9 +77,10 @@ export const Blogs: BlogModel[] = [
     },
     {
         ID: 4,
-        Title: "Challenge Galway 2016",
+        Title: "Challenge Galway",
         Date: new Date('2016-06-19'),
         Image: 'assets/cork2019.jpg',
+        Swim: 0, Bike: 0, Run: 0, Overall: 0,
         Body: `
         Before 2013 I had only met one ‘Ironman’ and couldn’t get my head around the swim alone. I never seemed to be able to grasp it at school, spending lessons half blind and unable to hear anything going on. I’ve always been a bit hopeless at sport too but my competitive streak decided to finally make an appearance when my boss asked if any of the team would like to join in with the DCT sprint 2 months away. I swapped my MTB for a road bike, and joined Pulse having seen them fly past me a few weeks early in Blessington. A week later I was introduced to Wicklow and couldn’t believe what I had been missing. Next up Killarney and it’s not long before I’m needing to be escorted back to the coast at snail pace by Chris with no wetsuit, sorry Chris. Race day soon arrives and adrenaline outweighs competency as I find myself wondering what I’m doing in the freezing Liffey river chaos. I finally get out and get a boost on land. DCT is a fantastic first race as you’ll soon find yourself in good company on the 4/7 lap cycle course competing with all abilities. Dingle olympic a few months later was distinctly quieter with a good dose of jellyfish, sea mist and local roads thrown into the mix.
         <br /><br />
