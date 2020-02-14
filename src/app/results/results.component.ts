@@ -7,6 +7,6 @@ templateUrl: './results.component.html',
 styleUrls: ['./results.component.scss'],
 })
 export class ResultsComponent {
-  elements = globals.Blogs;
-  headElements = ['Race', 'Swim', 'Bike', 'Run', 'Overall'];
+  elements = globals.Blogs.filter(b => !b.Show);
+  headElements = ['Date', 'Race', 'Swim', 'Bike', 'Run', 'Overall'];
 }

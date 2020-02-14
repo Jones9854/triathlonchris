@@ -8,7 +8,7 @@ import { BlogModel } from '../models/blog-model';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  blogs: BlogModel[] = globals.Blogs;
+  blogs: BlogModel[] = globals.Blogs.filter(b => b.Show);
   
   constructor() { }
 

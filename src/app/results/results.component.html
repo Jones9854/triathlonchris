@@ -7,13 +7,14 @@
     </thead>
     <tbody>
       <tr mdbTableCol *ngFor="let el of elements">
-        <th scope="row">
+        <td>{{el.Date | date: 'dd MMM yy'}}</td>
+        <td>
           <a routerLink="/blog/{{el.ID}}">{{el.Title}}</a>
-        </th>
-        <td>{{el.Swim | date: 'HH:mm:ss'}}</td>
-        <td>{{el.Bike | date: 'HH:mm:ss'}}</td>
-        <td>{{el.Run | date: 'hh:mm:ss'}}</td>
-        <td>{{el.Overall | date: 'hh:mm:ss'}}</td>
+        </td>
+        <td>{{el.Swim | time}}</td>
+        <td>{{el.Bike | time}}</td>
+        <td>{{el.Run | time}}</td>
+        <td>{{el.Overall | time}}</td>
       </tr>
     </tbody>
   </table>

@@ -8,4 +8,5 @@ export class BlogModel {
     Bike: number;
     Run: number;
     Overall: number;
+    Show: boolean
 }

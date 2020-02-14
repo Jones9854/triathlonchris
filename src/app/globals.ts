@@ -3,6 +3,7 @@ import { BlogModel } from './models/blog-model';
 export const Blogs: BlogModel[] = [
     {
         ID: 1,
+        Show: true,
         Title: "IM Wales 2018",
         Date: new Date('2018-09-09'),
         Image: 'assets/wales2018.jpg',
@@ -23,6 +24,7 @@ export const Blogs: BlogModel[] = [
     },
     {
         ID: 2,
+        Show: true,
         Title: "IM Austria 2018",
         Date: new Date('2018-07-22'),
         Image: 'assets/austria2018.jpg',
@@ -53,6 +55,7 @@ export const Blogs: BlogModel[] = [
     },
     {
         ID: 3,
+        Show: true,
         Title: "IM Wales 2017",
         Date: new Date('2017-09-10'),
         Image: 'assets/wales2017.jpg',
@@ -77,6 +80,7 @@ export const Blogs: BlogModel[] = [
     },
     {
         ID: 4,
+        Show: true,
         Title: "Challenge Galway",
         Date: new Date('2016-06-19'),
         Image: 'assets/cork2019.jpg',
@@ -102,6 +106,44 @@ export const Blogs: BlogModel[] = [
         <br /><br />
         A big thank you to everyone in the club. I’m not the most vocal of members but I really do enjoy all aspects of the club; club training weekends, club races, coached pool sessions, Sunday runs, club cycles, TTs, spin sessions, S&C, Killiney open water swims, Corkagh brick sessions, and the breadth of experience within the club. There really is so much being offered. Special mention to Joe (S&C sessions), the swim coaches (Dave, Colin and Alan), Kevin, Alison, Andrea, and Chris.
         `
-    }
-
-]
+    },
+    {ID: 1, Date: new Date(2015,2,28), Image: "", Body: "", Show: false, Title: "SRAC", Swim: 0, Bike: 10787000, Run: 0, Overall: 10787000},
+    {ID: 2, Date: new Date(2015,3,11), Image: "", Body: "", Show: false, Title: "SPAR 10km", Swim: 0, Bike: 2514000, Run: 0, Overall: 2514000},
+    {ID: 3, Date: new Date(2015,4,24), Image: "", Body: "", Show: false, Title: "Lough Cutra Olympic", Swim: 0, Bike: 0, Run: 0, Overall: 0},
+    {ID: 4, Date: new Date(2015,7,9), Image: "", Body: "", Show: false, Title: "IM 70.3 Dublin", Swim: 3085000, Bike: 10976000, Run: 6394000, Overall: 20455000},
+    {ID: 5, Date: new Date(2015,7,23), Image: "", Body: "", Show: false, Title: "DCT Olympic", Swim: 1981000, Bike: 4842000, Run: 2776000, Overall: 9599000},
+    {ID: 6, Date: new Date(2016,5,4), Image: "", Body: "", Show: false, Title: "Athy Double Olympic", Swim: 3632000, Bike: 8979000, Run: 5589000, Overall: 18200000},
+    {ID: 7, Date: new Date(2016,5,26), Image: "", Body: "", Show: false, Title: "Challenge Galway", Swim: 4049000, Bike: 22221000, Run: 13157000, Overall: 39427000},
+    {ID: 8, Date: new Date(2016,6,31), Image: "", Body: "", Show: false, Title: "Belfast Olympic", Swim: 1769000, Bike: 3887000, Run: 2481000, Overall: 8137000},
+    {ID: 9, Date: new Date(2016,7,20), Image: "", Body: "", Show: false, Title: "Tri Hook", Swim: 888000, Bike: 2452000, Run: 1308000, Overall: 4648000},
+    {ID: 10, Date: new Date(2016,7,21), Image: "", Body: "", Show: false, Title: "Sean Kelly Sportive", Swim: 0, Bike: 20648000, Run: 0, Overall: 20648000},
+    {ID: 11, Date: new Date(2016,8,11), Image: "", Body: "", Show: false, Title: "Glendalough 3.9km", Swim: 4301000, Bike: 0, Run: 0, Overall: 4301000},
+    {ID: 12, Date: new Date(2016,9,30), Image: "", Body: "", Show: false, Title: "Dublin Marathon", Swim: 0, Bike: 0, Run: 10796000, Overall: 10796000},
+    {ID: 13, Date: new Date(2016,10,26), Image: "", Body: "", Show: false, Title: "Run the Line", Swim: 0, Bike: 0, Run: 9365000, Overall: 9365000},
+    {ID: 14, Date: new Date(2017,2,12), Image: "", Body: "", Show: false, Title: "VO2 Cycle", Swim: 0, Bike: 17905000, Run: 0, Overall: 17905000},
+    {ID: 15, Date: new Date(2017,4,22), Image: "", Body: "", Show: false, Title: "Howth Aquathlon", Swim: 1380000, Bike: 0, Run: 15720000, Overall: 17100000},
+    {ID: 16, Date: new Date(2017,5,4), Image: "", Body: "", Show: false, Title: "Gran Fondo Gira Belfast", Swim: 0, Bike: 22231000, Run: 0, Overall: 22231000},
+    {ID: 17, Date: new Date(2017,5,11), Image: "", Body: "", Show: false, Title: "Wicklow 200", Swim: 0, Bike: 27914000, Run: 0, Overall: 27914000},
+    {ID: 18, Date: new Date(2017,5,17), Image: "", Body: "", Show: false, Title: "Westport Sprint", Swim: 714000, Bike: 2057000, Run: 1129000, Overall: 3900000},
+    {ID: 19, Date: new Date(2017,6,15), Image: "", Body: "", Show: false, Title: "Two Province Sprint", Swim: 820000, Bike: 1824000, Run: 1232000, Overall: 3876000},
+    {ID: 20, Date: new Date(2017,7,12), Image: "", Body: "", Show: false, Title: "Caroline Kearney", Swim: 1513000, Bike: 3855000, Run: 2305000, Overall: 7673000},
+    {ID: 21, Date: new Date(2017,7,27), Image: "", Body: "", Show: false, Title: "DCT Olympic", Swim: 1605000, Bike: 3951000, Run: 2344000, Overall: 7900000},
+    {ID: 22, Date: new Date(2017,8,10), Image: "", Body: "", Show: false, Title: "IM Wales", Swim: 3930000, Bike: 24409000, Run: 12539000, Overall: 40878000},
+    {ID: 23, Date: new Date(2017,8,23), Image: "", Body: "", Show: false, Title: "DC Half Marathon", Swim: 0, Bike: 0, Run: 5134000, Overall: 5134000},
+    {ID: 24, Date: new Date(2018,2,24), Image: "", Body: "", Show: false, Title: "SRAC", Swim: 0, Bike: 15043000, Run: 0, Overall: 15043000},
+    {ID: 25, Date: new Date(2018,4,27), Image: "", Body: "", Show: false, Title: "Lough Cutra Olympic", Swim: 1881000, Bike: 4738000, Run: 2377000, Overall: 8996000},
+    {ID: 26, Date: new Date(2018,5,2), Image: "", Body: "", Show: false, Title: "Athy Double", Swim: 3561000, Bike: 8274000, Run: 5654000, Overall: 17489000},
+    {ID: 27, Date: new Date(2018,5,16), Image: "", Body: "", Show: false, Title: "Westport Sprint", Swim: 794000, Bike: 2216000, Run: 1135000, Overall: 4145000},
+    {ID: 28, Date: new Date(2018,6,1), Image: "", Body: "", Show: false, Title: "IM Austria", Swim: 4196000, Bike: 19152000, Run: 12884000, Overall: 36232000},
+    {ID: 29, Date: new Date(2018,6,28), Image: "", Body: "", Show: false, Title: "Tyrone Half", Swim: 2071000, Bike: 8931000, Run: 5579000, Overall: 16581000},
+    {ID: 30, Date: new Date(2018,7,11), Image: "", Body: "", Show: false, Title: "CK Duathlon", Swim: 1186000, Bike: 3991000, Run: 2480000, Overall: 7657000},
+    {ID: 31, Date: new Date(2018,8,9), Image: "", Body: "", Show: false, Title: "IM Wales", Swim: 4105000, Bike: 21700000, Run: 13275000, Overall: 39080000},
+    {ID: 32, Date: new Date(2018,8,23), Image: "", Body: "", Show: false, Title: "Charleville HM", Swim: 0, Bike: 0, Run: 5122000, Overall: 5122000},
+    {ID: 33, Date: new Date(2019,0,12), Image: "", Body: "", Show: false, Title: "Art O'Neill", Swim: 0, Bike: 0, Run: 35350000, Overall: 35350000},
+    {ID: 34, Date: new Date(2019,4,26), Image: "", Body: "", Show: false, Title: "Lough Cutra Olympic", Swim: 2243000, Bike: 4289000, Run: 2610000, Overall: 9142000},
+    {ID: 35, Date: new Date(2019,5,8), Image: "", Body: "", Show: false, Title: "Westport Olympic", Swim: 1604000, Bike: 3964000, Run: 2412000, Overall: 7980000},
+    {ID: 36, Date: new Date(2019,5,23), Image: "", Body: "", Show: false, Title: "IM Cork", Swim: 0, Bike: 22166000, Run: 15243000, Overall: 37409000},
+    {ID: 37, Date: new Date(2019,7,24), Image: "", Body: "", Show: false, Title: "Jailbreak Olympic", Swim: 1838000, Bike: 3524000, Run: 2228000, Overall: 7590000},
+    {ID: 38, Date: new Date(2019,7,31), Image: "", Body: "", Show: false, Title: "Lost sheep", Swim: 2724000, Bike: 9438000, Run: 5783000, Overall: 17945000},
+    {ID: 39, Date: new Date(2019,8,28), Image: "", Body: "", Show: false, Title: "Moby Dick", Swim: 1108000, Bike: 1811000, Run: 1436000, Overall: 4355000},
+];

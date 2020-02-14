@@ -7,13 +7,15 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BlogComponent } from './blog/blog.component';
 import { HomeComponent } from './home/home.component';
 import { ResultsComponent } from './results/results.component';
+import { CustomDatePipePipe } from './custom-date-pipe.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     BlogComponent,
     HomeComponent,
-    ResultsComponent
+    ResultsComponent,
+    CustomDatePipePipe
   ],
   imports: [
     BrowserModule,
